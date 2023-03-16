@@ -93,8 +93,8 @@
                             </div>
                         </div>
 
-                        <div class="pol_tri_data">
-                            <div class="pol_and_text">
+                        <div class="pol_tri_data pol_and_text">
+                            <div class="data">
                                 <p class="text">Дата рождения</p>
                                 <select class="pol tri" name="den">
                                 	 <option value="pol tri">1</option>
@@ -129,7 +129,7 @@
                                 	 <option value="pol tri">30</option>
                              	</select>
                             </div>
-                            <div class="pol_and_text ">
+                            <div class="data">
                                 <select class="pol_text pol che cher" name="den">
                                 	 <option value="pol_text pol che cher">Январь</option>
                                 	 <option value="pol_text pol che cher">Февраль</option>
@@ -145,7 +145,7 @@
                                 	 <option value="pol_text pol che cher">Декабрь</option>
                              	</select>
                             </div>
-                            <div class="pol_and_text">
+                            <div class="data">
                             	<select class="pol_text pol che cher" name="den">
                             		 <option value="pol tri cher">1996</option>
                                 	 <option value="pol tri cher">1997</option>
@@ -181,20 +181,22 @@
                             </div>
                         </div>
 
-                        <div class="pol_dva_m">
-                            <div class="pol_and_text">
-                                <p class="text">Пол</p>
-                                <div class="pol dva j">
-                                    <p class="pol_text">Мужской</p>
-                                    <input type="checkbox">
-                                </div>
+                        <div class="radio">
+                          <span class="text">Пол</span>
+                          <div class="mw">
+                            <div class="mw_block">
+                                <label>
+                                    <input type="radio" name="sex" value="мужской" class="button">
+                                    <div class="radio-control male"></div>
+                                </label>
                             </div>
-                            <div class="pol_and_text">
-                                <div class="pol dva j c">
-                                    <p class="pol_text">Женский</p>
-                                    <input type="checkbox" >
-                                </div>
+                            <div class="mw_block">
+                                <label>
+                                    <input type="radio" name="sex" value="женский">
+                                    <div class="radio-control female"></div>
+                                </label>
                             </div>
+                          </div>
                         </div>
                     <input type="submit" value="Сахранить" class="pol_and_text pol_text r_t pol r">
 			     </div>

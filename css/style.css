@@ -35,7 +35,7 @@ body{
 .block_2{
 	background-color: #fff;
 	width: 750px;
-	height: 1062px;
+	height: 900px;
 	margin-right: 113px;
 	border-radius: 5px;
 }
@@ -170,7 +170,7 @@ body{
     font-family: 'Roboto';
 }
 .pol_and_text{
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 .pol{
@@ -233,11 +233,11 @@ body{
 }
 
 .tri{
-    width: 94px;
+    width: 110px;
 }
 
 .che{
-    width: 134px;
+    width: 150px;
     padding: 0 13px; 
 }
 
@@ -245,26 +245,8 @@ body{
     margin-top: 25px;
 }
 
-.pol_dva_m{
-    width: 250px;
-    margin-top: 30px;
-    margin-left: 21px;
-    display: flex;
-    justify-content: space-around;
-    padding: 0 13px; 
-}
-
-.j{
-    width: 120px;
-    margin-right: 10px;
-}
-
-.c{
-    margin-top: 25px;
-}
-
 .r{
-    width: 307px;
+    width: 270px;
     display: flex;
     justify-content: center;
     background-color: #FF7A00;
@@ -273,6 +255,121 @@ body{
 .r_t{
     color: #fff;
 }
+
+.data{
+	margin-right: 5px;
+}
+
+.radio{
+	width: 270px;
+	display: inline-block;
+	height: 50px;
+	margin-top: 30px;
+}
+
+.mw{
+	display: flex;
+	justify-content: space-between;
+	width: 268px;
+}
+
+.radio label {
+  position: relative;
+  padding-left: 50px;
+  cursor: pointer;
+  width: 50%;
+  float: left;
+  line-height: 40px;
+}
+
+.radio input {
+  position: absolute;  
+  opacity: 0;
+}
+
+.radio-control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 120px;
+  background: #FFFFFF;
+  border:solid 1px #DFE2E4;
+  border-radius: 5px;
+  display: flex;
+  padding-left: 10px;
+  justify-content: left;
+  align-items: center;
+}
+
+.male:before {
+  content: "Мужской";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Roboto';
+  color: #959EA4;
+  top: 10px;
+}
+
+.female:before {
+  content: "Женский";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Roboto';
+  color: #959EA4;
+}
+
+.male:after {
+	content: url(../img/galka.svg);
+	position: absolute;
+	right:10px;
+	display: none;
+}
+
+.female:after {
+	content: url(../img/galka.svg);
+	position: absolute;
+	right:10px;
+	display: none;
+}
+
+.radio label:hover input ~ .radio-control,
+
+.radiol input:focus ~ .radio-control {
+  box-shadow: inset 0 0 0 2px rgba(0,0,0,.2);
+}
+
+.radio input:checked ~ .radio-control {
+  color: #FF7A00;
+  border: solid 1px #FF7A00;
+}
+
+.radio input:checked ~  .female:before {
+  color: #FF7A00;
+}
+
+.radio input:checked ~  .male:before  {
+  color: #FF7A00;
+}
+
+.radio input:checked ~  .male:after  {
+  display: block;
+}
+
+.radio input:checked ~  .female:after  {
+  display: block;
+}
+
+.mw_block{
+	width: 130px;
+	height: 50px;
+}
+
+
+
+
 
 
 
