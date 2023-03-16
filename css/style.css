@@ -1,0 +1,278 @@
+body{
+	background-color: #E5E5E5;
+	display: flex;
+	justify-content: center;
+}
+
+.title{
+	width: 1140px;
+	margin-top: 30px;
+	font-family: 'Roboto';
+	font-size: 25px;
+	font-weight: 700;
+	color: #2A3D48;
+	padding-left: 113px;
+}
+
+.conteiner{
+	width: 1366px;
+}
+
+.conteiner_2{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.block_1{
+	background-color: #fff;
+	width: 360px;
+	height: 461px;
+	margin-left: 113px;
+	border-radius: 5px;
+}
+
+.block_2{
+	background-color: #fff;
+	width: 750px;
+	height: 1062px;
+	margin-right: 113px;
+	border-radius: 5px;
+}
+
+.FIO{
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 500;
+	color: #1C294D;
+}
+
+.status{
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	color: rgba(28, 41, 77, 0.5);
+}
+
+.account_title{
+	margin:20px;
+	width: 320px;
+	height: 60px;
+	background-color: #F9F9FA;
+	display: flex;
+	border-radius: 5px;
+	align-items:center;
+}
+
+.smile{
+	margin: 0 10px;
+	width: 40px;
+	height: 40px;
+	background: #FFFFFF;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.menu{
+	position: relative;
+}
+
+.menu_border{
+	margin:20px 20px;
+}
+
+.acount_text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	color: #1C294D;
+	text-decoration: none;
+}
+
+.my_prof{
+	font-style: normal;
+	font-weight: 500;
+	color: #FC6E1D;
+}
+
+.my_prof_menu::before{
+	content: url(../img/Rectangle950.svg);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.exit{
+	color: #FF3347;
+}
+
+.line{
+	width: 320px;
+	height: 1px;
+	background: rgba(42, 61, 72, 0.15);
+	border-radius: 2px;
+	margin-left: 20px;
+}
+
+.conteiner_3{
+	margin:45px;
+}
+
+.zag_block2{
+    color: #1C294D;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+.main_bottons{
+    margin-top: 20px;
+    display: flex;
+    width:660px;
+    height: 50px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.bottons_text{
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #55646D;
+    font-family: 'Roboto';
+}
+
+
+.botton_white{
+    width: 139px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 3px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+.bottons_text_white{
+    text-decoration: none;
+    color: #1C294D;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'Roboto';
+}
+.pol_and_text{
+    margin-top: 30px;
+}
+
+.pol{
+    width: 392px;
+    height: 50px;
+    border:solid 1px #DFE2E4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.gal::after{
+    content: url(../img/galka.svg);
+    position:relative;
+    bottom:33px;
+    left: 390px;
+}
+
+.gal1::after{
+    content: url(../img/galka.svg);
+    position:relative;
+    bottom:33px;
+    left: 170px;
+}
+
+
+.text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #959EA4;
+    font-family: 'Roboto';
+    margin-bottom:5px;
+}
+
+.tochka{
+    color: #FF3347;
+}
+
+.pol_dva_tel{
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dva{
+    width: 169px;
+    padding: 0 13px;
+}
+
+.pol_tri_data{
+    height: 50px;
+    width: 420px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tri{
+    width: 94px;
+}
+
+.che{
+    width: 134px;
+    padding: 0 13px; 
+}
+
+.cher{
+    margin-top: 25px;
+}
+
+.pol_dva_m{
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 21px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 13px; 
+}
+
+.j{
+    width: 120px;
+    margin-right: 10px;
+}
+
+.c{
+    margin-top: 25px;
+}
+
+.r{
+    width: 307px;
+    display: flex;
+    justify-content: center;
+    background-color: #FF7A00;
+}
+
+.r_t{
+    color: #fff;
+}
+
+
+
